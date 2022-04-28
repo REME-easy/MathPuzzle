@@ -1,0 +1,36 @@
+[info]
+id = "test_level_5"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+1 = { type = "number", params = { number = 1 } }
+2 = { type = "number", params = { number = 2 } }
+4 = { type = "number", params = { number = 4 } }
+5 = { type = "number", params = { number = 5 } }
+7 = { type = "number", params = { number = 7 } }
+'@' = { type = "number", params = { number = 45 } }
+'+' = "plus"
+'$' = "equal"
+
+[[maps]]
+name = "root"
+tiles = [
+    ".......",
+    ".1.2.4.",
+    ".......",
+    ".5.7.+.",
+    ".......",
+    ".+.$.$.",
+    "......p",
+]
+floors = [
+    "@......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+]

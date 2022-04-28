@@ -1,0 +1,13 @@
+keys,zh,en
+original:test_level_1_name,开始,beginning
+original:test_level_2_name,加法,plus
+original:test_level_3_name,复用-1,multiplexing-1
+original:test_level_4_name,减法,minus
+original:test_level_5_name,复用-2,multiplexing-2
+original:test_level_6_name,乘法,times
+original:test_level_7_name,无限,infinite
+original:test_level_8_name,吞噬,swallow
+original:test_level_9_name,不变,immutable
+original:test_level_10_name,变量,variable
+original:test_level_11_name,赋值,assignment
+original:test_level_12_name,兔子,rabbit

@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\files\\game\\godot\\games\\MathPuzzle\\MathPuzzle.csproj": {}
+  },
+  "projects": {
+    "D:\\files\\game\\godot\\games\\MathPuzzle\\MathPuzzle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\files\\game\\godot\\games\\MathPuzzle\\MathPuzzle.csproj",
+        "projectName": "MathPuzzle",
+        "projectPath": "D:\\files\\game\\godot\\games\\MathPuzzle\\MathPuzzle.csproj",
+        "packagesPath": "C:\\Users\\86183\\.nuget\\packages\\",
+        "outputPath": "D:\\files\\game\\godot\\games\\MathPuzzle\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\vs\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86183\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "MoonSharp": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Tomlyn": {
+              "target": "Package",
+              "version": "[0.14.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

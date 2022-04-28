@@ -1,0 +1,30 @@
+[info]
+id = "test_level_10"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+x = { type = "variable", params = { var = "x" } }
+1 = { type = "number", params = { number = 1 } }
+2 = { type = "number", params = { number = 2 } }
+'+' = "plus"
+'$' = "equal"
+
+[[maps]]
+name = "root"
+tiles = [
+    "x$....",
+    "..1...",
+    "p.....",
+    ".x+1$.",
+    "......",
+]
+floors = [
+    "......",
+    "......",
+    "......",
+    "......",
+    ".....2",
+]

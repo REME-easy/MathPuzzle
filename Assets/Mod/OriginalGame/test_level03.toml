@@ -1,0 +1,32 @@
+[info]
+id = "test_level_3"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+1 = { type = "number", params = { number = 1 } }
+2 = { type = "number", params = { number = 2 } }
+'@' = { type = "number", params = { number = 10 } }
+'+' = "plus"
+'$' = "equal"
+
+[[maps]]
+name = "root"
+tiles = [
+    "..$1+1$..",
+    "wwwwwwwww",
+    "p........",
+    "..1.2.$..",
+    "..2.$.+..",
+    ".........",
+]
+floors = [
+    ".........",
+    ".........",
+    "........@",
+    ".........",
+    ".........",
+    ".........",
+]

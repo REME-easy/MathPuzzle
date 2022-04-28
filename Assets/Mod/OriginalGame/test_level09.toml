@@ -1,0 +1,35 @@
+[info]
+id = "test_level_9"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+'!' = { type = "number", params = { number = 1, static = true } }
+'@' = { type = "number", params = { number = 2, static = true } }
+'&' = { type = "number", params = { number = 53 } }
+'+' = "plus"
+'-' = "minus"
+'X' = "times"
+'$' = "equal"
+a = { type = "plus", params = { static = true } }
+e = { type = "equal", params = { static = true } }
+
+[[maps]]
+name = "root"
+tiles = [
+    "p.......",
+    "...@.+..",
+    ".....-..",
+    "...!.X..",
+    "...$....",
+    "........",
+]
+floors = [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    ".......&",
+]

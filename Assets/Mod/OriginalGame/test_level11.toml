@@ -1,0 +1,38 @@
+[info]
+id = "test_level_11"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+x = { type = "variable", params = { var = "x", static = true } }
+1 = { type = "number", params = { number = 1 } }
+2 = { type = "number", params = { number = 2 } }
+3 = { type = "number", params = { number = 3 } }
+'+' = { type = "plus" }
+'$' = "equal"
+'%' = { type = "equal", params = { static = true } }
+
+[[maps]]
+name = "root"
+tiles = [
+    ".......x.....",
+    "...p...+.....",
+    "...1...1.....",
+    "...1..w%wwwww",
+    "...1.........",
+    "...$..ww%wwww",
+    "........x....",
+    ".............",
+]
+floors = [
+    ".............",
+    ".............",
+    ".............",
+    ".............",
+    "..........132",
+    ".............",
+    ".............",
+    ".............",
+]

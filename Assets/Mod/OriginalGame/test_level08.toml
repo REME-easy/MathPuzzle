@@ -1,0 +1,42 @@
+[info]
+id = "test_level_8"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+'0' = { type = "number", params = { number = 0 } }
+'1' = { type = "number", params = { number = 1 } }
+'2' = { type = "number", params = { number = 2 } }
+'@' = { type = "number", params = { number = 16 } }
+'-' = "minus"
+'/' = "divide"
+'$' = "equal"
+a = { type = "plus", params = { static = true } }
+e = { type = "equal", params = { static = true } }
+
+[[maps]]
+name = "root"
+tiles = [
+    "wwwwwwwwwwwwwwwww",
+    "ww..............w",
+    "wwawwww..e.a.2..w",
+    "ww22222.........w",
+    "ww$wwww../.p.0..w",
+    "w...............w",
+    "w..........1.2..w",
+    "w...............w",
+    "wwwwwwwwwwwwwwwww",
+]
+floors = [
+    ".................",
+    ".................",
+    ".................",
+    ".................",
+    ".................",
+    ".................",
+    ".................",
+    "...............@.",
+    ".................",
+]

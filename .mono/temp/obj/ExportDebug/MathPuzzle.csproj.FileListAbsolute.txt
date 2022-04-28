@@ -1,0 +1,13 @@
+D:\files\game\godot\games\MathPuzzle\.mono\temp\bin\ExportDebug\MathPuzzle.dll
+D:\files\game\godot\games\MathPuzzle\.mono\temp\bin\ExportDebug\MathPuzzle.pdb
+D:\files\game\godot\games\MathPuzzle\.mono\temp\bin\ExportDebug\MoonSharp.Interpreter.dll
+D:\files\game\godot\games\MathPuzzle\.mono\temp\bin\ExportDebug\Newtonsoft.Json.dll
+D:\files\game\godot\games\MathPuzzle\.mono\temp\bin\ExportDebug\Tomlyn.dll
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.csproj.AssemblyReference.cache
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.GeneratedMSBuildEditorConfig.editorconfig
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.AssemblyInfoInputs.cache
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.AssemblyInfo.cs
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.csproj.CoreCompileInputs.cache
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.csproj.CopyComplete
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.dll
+D:\files\game\godot\games\MathPuzzle\.mono\temp\obj\ExportDebug\MathPuzzle.pdb

@@ -1,0 +1,40 @@
+[info]
+id = "test_level_7"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+'1' = { type = "number", params = { number = 1 } }
+'2' = { type = "number", params = { number = 2 } }
+'4' = { type = "number", params = { number = 4 } }
+'0' = { type = "number", params = { number = 0 } }
+'-' = { type = "minus", params = { static = true } }
+'/' = "divide"
+'$' = "equal"
+
+[[maps]]
+name = "root"
+tiles = [
+    "..4/2$...",
+    "wwwwwwwww",
+    ".........",
+    ".1.1.1...",
+    ".1./.$...",
+    ".p.-.....",
+    ".........",
+    ".......w$",
+    ".......w.",
+]
+floors = [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........0",
+]

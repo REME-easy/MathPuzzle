@@ -1,0 +1,40 @@
+[info]
+id = "test_level_6"
+category = "original"
+author = "REME"
+
+[blocks]
+p = "player"
+w = "wall"
+'2' = { type = "number", params = { number = 2 } }
+'3' = { type = "number", params = { number = 3 } }
+'4' = { type = "number", params = { number = 4 } }
+'@' = { type = "number", params = { number = 11 } }
+'X' = "times"
+'+' = "plus"
+'$' = "equal"
+
+[[maps]]
+name = "root"
+tiles = [
+    "..2X3$...",
+    "wwwwwwwww",
+    ".........",
+    "..2.3.4..",
+    "..X.+.$..",
+    ".........",
+    "..p......",
+    ".........",
+    ".........",
+]
+floors = [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "......@..",
+    ".........",
+    ".........",
+]
