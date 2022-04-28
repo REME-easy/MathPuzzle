@@ -40,6 +40,7 @@ namespace MathPuzzle.Scripts.Game
 
             LevelTitle.Text = Tr($"{LevelID}_name");
         }
+        
 
         public void PushMove (Movement move)
         {
